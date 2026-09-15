@@ -1,6 +1,6 @@
 # Báo cáo Ngày 3 — Tracking Annotation
 
-Họ tên / nhóm: `Nguyễn Trọng Minh Đức`
+Họ tên / nhóm: `Nguyễn Trọng Minh Đức`<br>
 Ngày: `15-09-2026`
 
 ---
