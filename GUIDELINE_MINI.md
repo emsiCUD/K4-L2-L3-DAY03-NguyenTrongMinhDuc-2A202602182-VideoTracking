@@ -7,7 +7,7 @@
 > người trong nhóm gán khác nhau, gần như luôn là vì file này chưa nói rõ — chứ
 > không phải vì ai kém.
 
-Tên: `[Nguyễn Trọng Minh Đức]`
+Tên: `Nguyễn Trọng Minh Đức`
 Clip: `clip_01`, `clip_02`
 
 ---
