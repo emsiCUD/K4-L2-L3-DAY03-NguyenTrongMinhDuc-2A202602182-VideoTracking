@@ -1,0 +1,97 @@
+{
+  "clip": "clip_01",
+  "frames": 190,
+  "iou_threshold": 0.5,
+  "pred_file": "evidence\\pre-gold\\clip_01\\gt.txt",
+  "gt_file": "gold\\clip_01\\gt.txt",
+  "pred_label": "PRED evidence\\pre-gold\\clip_01\\gt.txt",
+  "gt_label": "GT   gold\\clip_01\\gt.txt",
+  "metrics": {
+    "HOTA": 0.8336,
+    "DetA": 0.8187,
+    "AssA": 0.8515,
+    "LocA": 0.8746,
+    "IDF1": 0.9808,
+    "IDTP": 563,
+    "IDFP": 12,
+    "IDFN": 10,
+    "MOTA": 0.9616,
+    "MOTP": 0.8606,
+    "IDSW": 0,
+    "FP": 12,
+    "FN": 10,
+    "GT_boxes": 573,
+    "PRED_boxes": 575
+  },
+  "gate": {
+    "checks": {
+      "IDF1": {
+        "value": 0.980836236933798,
+        "required": 0.8,
+        "passed": true
+      },
+      "MOTA": {
+        "value": 0.9616055846422339,
+        "required": 0.75,
+        "passed": true
+      },
+      "MOTP": {
+        "value": 0.8605843962275208,
+        "required": 0.7,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "diagnostics": {
+    "missed_gt_tracks": [],
+    "fragmented_gt_tracks": [],
+    "partially_covered_gt_tracks": [],
+    "ghost_pred_tracks": [
+      {
+        "pred_track": 5,
+        "reason": "đã có bbox trước khi track tham chiếu 5 xuất hiện",
+        "frames": [
+          75,
+          78
+        ],
+        "length": 4
+      }
+    ],
+    "id_switches": [],
+    "loose_boxes": [
+      {
+        "frame": 80,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.533
+      },
+      {
+        "frame": 108,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.545
+      },
+      {
+        "frame": 107,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.562
+      },
+      {
+        "frame": 109,
+        "gt_track": 6,
+        "pred_track": 6,
+        "iou": 0.564
+      },
+      {
+        "frame": 81,
+        "gt_track": 5,
+        "pred_track": 5,
+        "iou": 0.579
+      }
+    ],
+    "n_gt_tracks": 8,
+    "n_pred_tracks": 8
+  }
+}
